@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop | BuildBot</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">BuildBot</a>
+    <div class="nav-right">
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#">Shop</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="cart-icon">
+            <img src="images/cart.png" alt="cart" />
+            <span id="cart-count">0</span>
+        </div>
+    </div>
+  </header>
+
+  <main class="shop-container">
+    <aside class="filter-sidebar">
+      <h3>Filter</h3>
+      <ul>
+        <li><button class="filter-btn" data-category="all">All</button></li>
+        <li><button class="filter-btn" data-category="arms">Arms</button></li>
+        <li><button class="filter-btn" data-category="legs">Legs</button></li>
+        <li><button class="filter-btn" data-category="body">Body</button></li>
+        <li><button class="filter-btn" data-category="head">Head</button></li>
+      </ul>
+    </aside>
+
+    <section class="product-grid">  <!-- Product Grid -->
+
+      <!-- Arms Product -->
+      <div class="product-card" data-category="arms">
+        <img src="images/arm1.png" class="product-image" alt="robo-arm" />
+        <h3>BB Arm</h3>
+        <p>$299.99</p>
+
+        <!-- Color Selection here -->
+        <div class="color-selector">
+          <p class="label">Choose Color</p>
+          <div class="color-options">
+            <div class="color-circle" data-color="White" style="background-color: white; border: 1px solid #ccc"></div>
+            <div class="color-circle" data-color="Black" style="background-color: black;"></div>
+            <div class="color-circle" data-color="Pink"  style="background-color: pink;"></div>
+          </div>
+          <p class="selected-color">Selected: <span class="selected-color-name">None</span></p>
+        </div>
+
+        <button class="add-btn">Add Cart</button>
+      </div>
+
+      <!-- Legs Product -->
+      <div class="product-card" data-category="legs">
+        <img src="images/leg1.png" class="product-image" alt="robo-legs" />
+        <h3>BB Legs</h3>
+        <p>$349.99</p>
+
+        <!-- Color selection here -->
+        <div class="color-selector">
+          <p class="label">Choose Color</p>
+          <div class="color-options">
+            <div class="color-circle" data-color="White" style="background-color: white; border: 1px solid #ccc"></div>
+            <div class="color-circle" data-color="Black" style="background-color: black;"></div>
+            <div class="color-circle" data-color="Pink" style="background-color: pink;"></div>
+          </div>
+          <p class="selected-color">Selected: <span class="selected-color-name">None</span></p>
+        </div>
+
+        <button class="add-btn">Add Cart</button>
+      </div>
+
+      <!-- Body Product -->
+      <div class="product-card" data-category="body">
+        <img src="images/body1.png" class="product-image" alt="robo-body" />
+        <h3>BB Torso</h3>
+        <p>$599.99</p>
+
+        <!-- Color Selection here -->
+        <div class="color-selector">
+          <p class="label">Choose Color</p>
+          <div class="color-options">
+            <div class="color-circle" data-color="White" style="background-color: white; border: 1px solid #ccc"></div>
+            <div class="color-circle" data-color="Black" style="background-color: black;"></div>
+            <div class="color-circle" data-color="Pink" style="background-color: pink;"></div>
+          </div>
+          <p class="selected-color">Selected: <span class="selected-color-name">None</span></p>
+        </div>
+
+        <button class="add-btn">Add Cart</button>
+      </div>
+
+      <!-- Head Product -->
+      <div class="product-card" data-category="head">
+        <img src="images/head1.png" class="product-image" alt="robo-head" />
+        <h3>BB Head</h3>
+        <p>$499.99</p>
+
+        <!-- Color Selection Here -->
+        <div class="color-selector">
+          <p class="label">Choose Color</p>
+          <div class="color-options">
+            <div class="color-circle" data-color="White" style="background-color: white; border: 1px solid #ccc"></div>
+            <div class="color-circle" data-color="Black" style="background-color: black;"></div>
+            <div class="color-circle" data-color="Pink" style="background-color: pink;"></div>
+          </div>
+          <p class="selected-color">Selected: <span class="selected-color-name">None</span></p>
+        </div>
+
+        <button class="add-btn">Add Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 BuildBot Robotics. All rights reserved.</p>
+  </footer>
+
+  <script src="js/shop.js"></script>
+</body>
+</html>
