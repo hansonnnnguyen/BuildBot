@@ -1,6 +1,7 @@
 BuildBot – Futuristic Robot Parts Store
 BuildBot is a modern, responsive e-commerce website that sells high-tech robot parts. Inspired by popular retail stores like Pacsun and Tesla, the site includes product filtering, color selection, a shopping cart system, and a contact form.
-
+Project Structure: 
+images/ # Product and UI Images
 Project Structure:
 images/            # Product and UI image
 css/               # Stylesheets
