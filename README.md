@@ -11,5 +11,7 @@ shop.html          # Product listing page
 contact.html       # Contact form
 
 
-
+Homepage with hovering functions
 <img width="1440" alt="Screenshot 2025-05-16 at 1 39 53 AM" src="https://github.com/user-attachments/assets/9ea7a72d-f4b6-4060-84d3-857eb68ceed6" />
+<img width="1440" alt="Screenshot 2025-05-16 at 1 27 35 AM" src="https://github.com/user-attachments/assets/3e2220cd-c7c0-4ad7-8171-12d4ba2fca4b" />
+
